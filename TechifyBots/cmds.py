@@ -68,10 +68,10 @@ async def send_random_video(client: Client, message: Message):
     daily_count = user.get("daily_count", 0)
     daily_limit = user.get("daily_limit", FREE_LIMIT)
     if daily_count > daily_limit:
-        await message.reply_text(f"**🚫 You've reached your daily limit of {daily_limit} videos.\n\n>Limit will reset every day at 5 AM (IST).**")
+        await message.reply_text(f"**🚫 You've reached your daily limit of {daily_limit} videos.Bʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ᴠɪᴅᴇᴏs. Cᴏɴᴛʀᴀᴄᴛ @DadyIsCalling ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ.\n\n>Limit will reset every day at 5 AM (IST).**")
     else:
         try:
-            caption_text = "<b><blockquote>🔞 Powered by: [TechifyBots](https://telegram.me/TechifyBots)</blockquote>\n\n⚠️ This file will auto delete in 5 minutes!\n\n💾 Please *save it in your Saved Messages* or *forward it elsewhere* to keep it safe! 🔐</b>"
+            caption_text = "<b><blockquote>🔞 Powered by: [DadyIsCalling](https://telegram.me/DadyIsCalling)</blockquote>\n\n⚠️ This file will auto delete in 5 minutes!\n\n💾 Please *save it in your Saved Messages* or *forward it elsewhere* to keep it safe! 🔐</b>"
             video_id = random_video["video_id"]
             dy = await client.copy_message(
                 chat_id=message.chat.id,

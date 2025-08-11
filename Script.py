@@ -7,7 +7,7 @@ class text(object):
 
 𝖲𝗈𝗆𝖾 𝗆𝖺𝗍𝖾𝗋𝗂𝖺𝗅 𝗆𝖺𝗒 𝗂𝗇𝖼𝗅𝗎𝖽𝖾 𝖾𝗑𝗉𝗅𝗂𝖼𝗂𝗍 𝗈𝗋 𝗀𝗋𝖺𝗉𝗁𝗂𝖼 𝖼𝗈𝗇𝗍𝖾𝗇𝗍 𝗍𝗁𝖺𝗍 𝗂𝗌 𝗇𝗈𝗍 𝗌𝗎𝗂𝗍𝖺𝖻𝗅𝖾 𝖿𝗈𝗋 𝗆𝗂𝗇𝗈𝗋𝗌.
 
-<blockquote><b>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/TechifyRahul'>ʀᴀʜᴜʟ</a></b></blockquote>"""
+<blockquote><b>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/DadyIsCalling'>Dᴀᴅʏ Is Cᴀʟʟɪɴɢ</a></b></blockquote>"""
 
   LOG = """👁️‍🗨️ 𝘜𝘚𝘌𝘙 𝘋𝘌𝘛𝘈𝘐𝘓𝘚
 
@@ -18,12 +18,12 @@ class text(object):
 
 𝘉𝘺 = @{}"""
 
-  ABOUT = """<b>‣ ᴍʏ ɴᴀᴍᴇ : <a href='https://youtube.com/@techifybots'>ᴘʀɪᴍᴇ ᴢᴏɴᴇ ʙᴏᴛ</a>
+  ABOUT = """<b>‣ ᴍʏ ɴᴀᴍᴇ : <a href='https://t.me/StudyMeterialsbot'>Sᴛᴜᴅʏ Mᴇᴛᴇʀɪᴀʟs ʙᴏᴛ</a>
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
 ‣ ᴅᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏᴅʙ</a>
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
 ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://www.koyeb.com/'>ᴋᴏʏᴇʙ</a>
-‣ ᴄʀᴇᴀᴛᴇᴅ ʙʏ : <a href='https://telegram.me/callownerbot'>ʀᴀʜᴜʟ</a></b>"""
+‣ ᴄʀᴇᴀᴛᴇᴅ ʙʏ : <a href='https://telegram.me/DadyIsCalling'>Dᴀᴅʏ Is Cᴀʟʟɪɴɢ</a></b>"""
   
   PRO = """<b><u>🆓 𝖥𝗋𝖾𝖾 𝖯𝗅𝖺𝗇</u></b>
 
@@ -47,7 +47,7 @@ If you want to unlock more content and enjoy a smoother experience, consider upg
 » <b>1 Month</b> — 60 INR  
 » Daily limit: <b>{prime_limit}</b> files
 
-<a href='https://techifybots.github.io/PayWeb'>📷 Click here to scan QR and pay</a>
+<a href='https://i.ibb.co/hFjZ6CWD/photo-2025-08-10-02-24-51-7536777335068950548.jpg'>📷 Click here to scan QR and pay</a>
 
 <blockquote>
 <b>Note:</b> Once a plan is selected, it cannot be changed.  

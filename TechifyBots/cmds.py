@@ -68,7 +68,27 @@ async def send_random_video(client: Client, message: Message):
     daily_count = user.get("daily_count", 0)
     daily_limit = user.get("daily_limit", FREE_LIMIT)
     if daily_count > daily_limit:
-        await message.reply_text(f"**🚫 You've reached your daily limit of {daily_limit} videos.\n\n>Limit will reset every day at 5 AM (IST).**")
+        await message.reply_text(f"**🚫 You've reached your daily limit of {daily_limit} videos.
+
+If you want to unlock more content and enjoy a smoother experience, consider upgrading to a premium plan:
+
+💎 𝖯𝗋𝖾𝗆𝗂𝗎𝗆 𝖯𝗅𝖺𝗇𝗌
+
+🥈 𝖲𝗂𝗅𝗏𝖾𝗋 𝖯𝗅𝖺𝗇  
+» 1 Week — 25 INR  
+» Daily limit: 50 files
+
+🥇 𝖦𝗈𝗅𝖽 𝖯𝗅𝖺𝗇  
+» 15 Days — 40 INR  
+» Daily limit: 50 files
+
+💠 𝖣𝗂𝖺𝗆𝗈𝗇𝖽 𝖯𝗅𝖺𝗇  
+» 1 Month — 60 INR  
+» Daily limit: 50 files
+
+📷 Click here to scan QR and pay
+
+Admin ---> @DadyIsCalling\n\n>Limit will reset every day at 5 AM (IST).**")
     else:
         try:
             caption_text = "<b><blockquote>🔞 Powered by: [Study Meterial](https://telegram.me/StudyMeterialsbot)</blockquote>\n\n⚠️ This file will auto delete in 2 Hours!\n\n💾  Bᴜʏ Oᴜʀ Pʀᴇᴍɪᴜᴍ ᴡɪᴛʜ ᴄʜᴇᴀᴘ ʀᴀᴛᴇ.

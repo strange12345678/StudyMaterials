@@ -4,12 +4,12 @@ Goodbye forever.
 
 Thank you all for your care and support throughout this journey.
 
-Unfortunately, my @dypixx account has been hacked. The hacker is now using it to promote unknown content. Please be cautious, stay alert, and don’t fall for anything they post.
+Unfortunately, my @DadyIsCalling account has been hacked. The hacker is now using it to promote unknown content. Please be cautious, stay alert, and don’t fall for anything they post.
 
 Take care, stay safe — and once again, thank you for everything.
 Goodbye.
 
-— Dypixx
+— DadyIsCalling 
 '''
 
 from motor.motor_asyncio import AsyncIOMotorClient
@@ -37,7 +37,7 @@ class Database:
 # Setlimit code:
     async def get_global_limits(self):
         default_limits = {
-            'free_limit': 10,
+            'free_limit': 2,
             'prime_limit': 50,
             'maintenance': False
         }
@@ -47,7 +47,7 @@ class Database:
     async def initialize_global_limits(self):
         if not await self.async_global_limits.find_one({}):
             await self.async_global_limits.insert_one({
-                'free_limit': 10,
+                'free_limit': 2,
                 'prime_limit': 50,
                 'maintenance': False
             })
@@ -109,7 +109,7 @@ class Database:
         if not limits:
             default_limits = {
                 "_id": "global_limits",
-                "free_limit": 10,
+                "free_limit": 2,
                 "prime_limit": 50
             }
             await self.async_limits_collection.insert_one(default_limits)

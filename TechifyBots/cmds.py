@@ -71,20 +71,7 @@ async def send_random_video(client: Client, message: Message):
         await message.reply_text(f"**🚫 You've reached your daily limit of {daily_limit} videos.Buʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ᴠɪᴅᴇᴏs. Cᴏɴᴛʀᴀᴄᴛ @DadyIsCalling ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ.\n\n>Limit will reset every day at 5 AM (IST).**")
     else:
         try:
-            caption_text = "<b><blockquote>🔞 Powered by: [DadyIsCalling](https://telegram.me/DadyIsCalling)</blockquote>\n\n🔥 Buy Our Premium Plan To get 50 videos daily 🎋\n\n💰Premium Plans🪩
-
-🥈 𝖲𝗂𝗅𝗏𝖾𝗋 𝖯𝗅𝖺𝗇  
-» 1 Week — 25 INR  
-» Daily limit: 50 files
-
-🥇 𝖦𝗈𝗅𝖽 𝖯𝗅𝖺𝗇  
-» 15 Days — 40 INR  
-» Daily limit: 50 files
-
-💠 𝖣𝗂𝖺𝗆𝗈𝗇𝖽 𝖯𝗅𝖺𝗇  
-» 1 Month — 60 INR  
-» Daily limit: 50 files
-🔐</b>"
+            caption_text = "<b><blockquote>🔞 Powered by: [DadyIsCalling](https://telegram.me/DadyIsCalling)</blockquote>\n\n🔥 Buy Our Premium Plan To get 50 videos daily 🎋\n\n💰Premium Plans🪩🥈 𝖲𝗂𝗅𝗏𝖾𝗋 𝖯𝗅𝖺𝗇 » 1 Week — 25 INR » Daily limit: 50 files,🥇 𝖦𝗈𝗅𝖽 𝖯𝗅𝖺𝗇 » 15 Days — 40 INR » Daily limit: 50 files, 💠 𝖣𝗂𝖺𝗆𝗈𝗇𝖽 𝖯𝗅𝖺𝗇 » 1 Month — 60 INR » Daily limit: 50 files🔐</b>"
             video_id = random_video["video_id"]
             dy = await client.copy_message(
                 chat_id=message.chat.id,
